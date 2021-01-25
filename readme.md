@@ -21,6 +21,10 @@ mkdir -p /www/wwwroot/shell
 cd /www/wwwroot/shell
 git clone https://github.com/ooseo/kuaixia-shiguangji.git
 ```
+- 删除 PHP 禁用函数
+```
+exec
+```
 - 根据实际情况修改代码配置
 ```php
 // 代理配置 请使用自动网关国外代理 ， 暂时可以不用配置
